@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#button {
+  background-image: url("indexbg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+#button a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: cursive;
+  position: absolute;
+  bottom: 15%;
+  left: 43%;
+  color: #c5b30c;
+  transition: 0.5s;
+}
+#button a:hover {
+  border-bottom: 2px solid #c5b30c;
+  padding-bottom: 10px;
+}
+/* calculator style sheeet */
+
+#bty {
+  background-color: black;
+}
+#sec {
+  width: 75%;
+  margin: auto;
+  height: 100vh;
+  background-color: silver;
+}
+#calculator {
+  width: 320px;
+  height: 520px;
+  border-radius: 10px;
+  position: relative;
+  background-color: yellowgreen;
+  top: 50px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 1px 1px 5px 0;
+}
+#history {
+  height: 45px;
+  font-size: 20px;
+  color: rgb(87, 82, 82);
+  padding: 10px 0;
+  text-align: right;
+}
+#output {
+  text-align: right;
+  font-size: 24px;
+  padding: 10px 0;
+  height: 50px;
+}
+.operator,
+.number,
+.empty {
+ float: left;
+  width: 50px;
+  height: 50px;
+  border-width: 0;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 15px;
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
+}
+.number, .empty{
+  background-color: yellowgreen;
+}
+.operator{
+  background-color: mistyrose;
+}
+@media screen and (max-width : 600px) {
+  #button{
+    background-image: url("indexbg.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  #button a{
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+  }
+}
