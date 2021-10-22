@@ -77,15 +77,11 @@
 .operator{
   background-color: mistyrose;
 }
-@media screen and (max-width : 600px) {
-  #button{
-    background-image: url("indexbg.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  #button a{
-    position: absolute;
-    bottom: 100px;
-    left: 200px;
+@media only screen and (max-width: 600px) {
+  #sec {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background-color: silver;
   }
 }
