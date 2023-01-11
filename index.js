@@ -10,7 +10,7 @@ class Calculator {
 
   name = "suhumar"
   rollno = "19un21"
-  age = 21
+  age = 22
 
   constructor (previousTextArea , currentTextArea){
 
