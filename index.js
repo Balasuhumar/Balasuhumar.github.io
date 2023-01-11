@@ -8,7 +8,8 @@ const currentTextArea = document.querySelector('[data-current-value]')
 
 class Calculator {
 
-  name = "suhumar";
+  name = "suhumar"
+  rollno = "19un21"
 
   constructor (previousTextArea , currentTextArea){
 
@@ -113,3 +114,6 @@ deleteButton.addEventListener('click', ()=> {
   calculator.delete();
   calculator.updateDisplay();
 });
+
+
+
