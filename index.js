@@ -8,6 +8,8 @@ const currentTextArea = document.querySelector('[data-current-value]')
 
 class Calculator {
 
+  name = "suhumar";
+
   constructor (previousTextArea , currentTextArea){
 
     console.log(this)
